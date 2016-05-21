@@ -1,0 +1,58 @@
+[ 2016-04-12T15:26:39+08:00 ] 127.0.0.1 /index.php?g=Admin&m=setting&a=site_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cmf_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_options` SET `option_id`='2',`option_name`='site_options',`option_value`='{\"site_name\":\"ThinkCMF\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"site_host\":\"http:\\/\\/127.0.0.1:7000\\/\",\"site_admin_url_password\":\"\",\"site_tpl\":\"simplebootx\",\"mobile_tpl_enabled\":\"1\",\"site_adminstyle\":\"bluesky\",\"site_icp\":\"\",\"site_admin_email\":\"123@qq.com\",\"site_tongji\":\"\",\"site_copyright\":\"\",\"site_seo_title\":\"ThinkCMF\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"site_seo_keywords\":\"ThinkCMF,php,\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6,cmf,cms,\\u7b80\\u7ea6\\u98ce, simplewind,framework\",\"site_seo_description\":\"ThinkCMF\\u662f\\u7b80\\u7ea6\\u98ce\\u7f51\\u7edc\\u79d1\\u6280\\u53d1\\u5e03\\u7684\\u4e00\\u6b3e\\u7528\\u4e8e\\u5feb\\u901f\\u5f00\\u53d1\\u7684\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"urlmode\":\"0\",\"html_suffix\":\"\",\"comment_time_interval\":60}' WHERE ( option_name='site_options' ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cmf_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cmf_options` (`option_name`,`option_value`) VALUES ('cmf_settings','{\"banned_usernames\":\"\"}') [ RunTime:0.0010s ]
+
+[ 2016-04-12T15:27:10+08:00 ] 127.0.0.1 /index.php?g=Admin&m=route&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\RouteModel
+
+[ 2016-04-12T15:35:08+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Rbac&a=roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_role` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_role` (`name`,`remark`,`status`,`create_time`) VALUES ('供应商用户','发布供应信息','1','1460446508') [ RunTime:0.0010s ]
+
+[ 2016-04-12T15:35:12+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Rbac&a=authorize&id=2
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2016-04-12T15:35:57+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Rbac&a=roleadd_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cmf_role` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\simplewind\Core\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cmf_role` (`name`,`remark`,`status`,`create_time`) VALUES ('需求用户','发布需求信息','1','1460446557') [ RunTime:0.0010s ]
+
+[ 2016-04-12T15:38:21+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0060s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###8eb729f04d0c65a105075b0cdb436e1e',`user_nicename`='admin',`user_email`='123@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2016-04-12 15:38:21',`create_time`='2016-04-12 03:19:59',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:39:08+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Rbac&a=authorize&id=3
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+

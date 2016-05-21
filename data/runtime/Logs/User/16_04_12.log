@@ -1,0 +1,115 @@
+[ 2016-04-12T15:36:41+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:36:45+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:36:48+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:37:18+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=doregister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-04-12T15:37:44+08:00 ] 127.0.0.1 /index.php?g=user&m=register&a=doregister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\simplewind\Core\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_users` WHERE `user_login` = '872294742_qq_com' OR `user_email` = '872294742@qq.com' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `cmf_users` (`user_login`,`user_email`,`user_nicename`,`user_pass`,`last_login_ip`,`create_time`,`last_login_time`,`user_status`,`user_type`) VALUES ('872294742_qq_com','872294742@qq.com','872294742_qq_com','###77da6a1ab3b391d914f4d34ba7b359e1','127.0.0.1','2016-04-12 15:37:44','2016-04-12 15:37:44','1','2') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:37:46+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:37:49+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:37:55+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:37:59+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:38:00+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:38:01+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:38:08+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\ThinkCMFX2.1.0_20160203\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-04-12T15:38:37+08:00 ] 127.0.0.1 /index.php?g=User&m=indexadmin&a=cancelban&id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_users` SET `user_status`='1' WHERE `id` = 2 AND `user_type` = 2 [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:38:44+08:00 ] 127.0.0.1 /index.php?g=User&m=indexadmin&a=ban&id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_users` SET `user_status`='0' WHERE `id` = 2 AND `user_type` = 2 [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:38:47+08:00 ] 127.0.0.1 /index.php?g=User&m=indexadmin&a=cancelban&id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cmf_users` SET `user_status`='1' WHERE `id` = 2 AND `user_type` = 2 [ RunTime:0.0000s ]
+

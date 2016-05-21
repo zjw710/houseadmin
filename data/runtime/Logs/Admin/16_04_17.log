@@ -1,0 +1,25 @@
+[ 2016-04-17T11:40:38+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0050s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0020s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###8eb729f04d0c65a105075b0cdb436e1e',`user_nicename`='admin',`user_email`='123@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2016-04-17 11:40:38',`create_time`='2016-04-12 03:19:59',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0010s ]
+
+[ 2016-04-17T11:51:51+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0030s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###8eb729f04d0c65a105075b0cdb436e1e',`user_nicename`='admin',`user_email`='123@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='127.0.0.1',`last_login_time`='2016-04-17 11:51:51',`create_time`='2016-04-12 03:19:59',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0000s ]
+
+[ 2016-04-17T11:52:01+08:00 ] 127.0.0.1 /index.php?g=Admin&m=route&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\RouteModel
+

@@ -1,0 +1,1 @@
+ mysql -h120.24.99.158 -uhouseapp -ptigo003 --database=apphouse
